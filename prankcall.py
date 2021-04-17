@@ -21,9 +21,9 @@ def intake():
 			intake()
 
 def main():
-	print "\nHello! Thanks for using PrankCall, please choose one of the options below.\n"
-	print "Press 'i' to record a phone number\n"
-	print "Press 'e' to exit\n"
+	print ("\nHello! Thanks for using PrankCall, please choose one of the options below.\n") 
+	print ("Press 'i' to record a phone number\n") 
+	print ("Press 'e' to exit\n") 
 	keypress = ord(getch())
 	if keypress == 105 or keypress == 73:
 		intake()
